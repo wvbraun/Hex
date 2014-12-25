@@ -24,16 +24,17 @@ There is a jar file included. This should be run as follows:
 ##Cool Things
 	A* AI:
 		This AI implements an A* search algorithm to determine the best possible path. 
-		Each time getMove() is called, it determines if the path is still the best path (meaning the other
-		player has not blocked it). If the path has been blocked, we recalculate the start and goal tiles and
-		then perform an A* search to compute the path. If we are unable to find a good path after size^2
-		attempts, we implement a brute force algorithm (same as the Basic AI) in order to find an open tile;
-		this is not an optimal solution, but I do not have time to perfect the AI. 
+		Each time getMove() is called, it determines if the path is still the best path
+		(meaning the other player has not blocked it). If the path has been blocked, I 
+		recalculate the start and goal tiles and then perform an A* search to compute the
+		path. If I am unable to find a good path after size^2 attempts, i implement a brute
+		force algorithm (same as the Basic AI) in order to find an open tile; this is not an
+		optimal solution, but I do not have time to perfect the AI. 
 			
 	Basic AI:
 		This AI implements a very crude heurisitic to determine moves to make.
-	    This is accomplished by starting with the (size - 1, size - 1) tile and trying to go 
-	    straight to its goal (either (0, size - 1) or (size - 1, 0).
+	    This is accomplished by starting with the (size - 1, size - 1) tile and trying to
+	    go straight to its goal (either (0, size - 1) or (size - 1, 0)).
 
 ---
 
