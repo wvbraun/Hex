@@ -28,16 +28,6 @@
 		</plugins>
 	</build>
 	<dependencies>
-		<dependency>
-			<groupId>edu.indiana.cs.c212</groupId>
-			<artifactId>player</artifactId>
-			<version>1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>edu.indiana.cs.c212</groupId>
-			<artifactId>board</artifactId>
-			<version>1.0</version>
-		</dependency>
 		<!-- Test Dependencies -->
 		<dependency>
 			<groupId>org.easymock</groupId>
