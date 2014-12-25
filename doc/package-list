@@ -1,7 +1,7 @@
-edu.c212
-edu.c212.board
-edu.c212.exceptions
-edu.c212.gameMechanics
-edu.c212.players
-edu.c212.view.graphical
-edu.c212.view.textual
+games.hex
+games.hex.board
+games.hex.exceptions
+games.hex.gameMechanics
+games.hex.players
+games.hex.view.graphical
+games.hex.view.textual

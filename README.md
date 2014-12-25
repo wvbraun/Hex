@@ -1,4 +1,4 @@
-#C212 Final Project - Hex
+#Hex
 
 ##What is Hex?
 Hex is a strategy board game played on a hexagonal grid, theoretically of any size and several possible shapes, but traditionally as an 11×11 rhombus. 
