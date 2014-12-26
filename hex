@@ -1,0 +1,17 @@
+#! /bin/bash
+
+if [ "$#" -ne 1 ]
+then
+	echo "*** Incorrect Amount of Arguments ***"
+	echo "*** Usage: ./hex <arg> ***"
+	exit 1
+fi
+
+name=$1
+
+if [ "$name" == "cli" ]
+then
+	java -jar Hex.jar cli
+else
+	java -jar Hex.jar gui
+fi

@@ -14,9 +14,9 @@ This was the final assigned project for a university course, focusing on object-
 There is a jar file included. This should be run as follows:
 ```
     GUI:
-		java -jar gui
+		java -jar Hex.jar gui
 	CLI:
-		java -jar cli 
+		java -jar Hex.jar cli 
 ```
 
 ---
