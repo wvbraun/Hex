@@ -14,7 +14,6 @@ import games.hex.gameMechanics.GameRunner;
 
 /**
  * Allows user to choose the player type.
- * @author Brandon Peavler
  *
  */
 @SuppressWarnings("serial")

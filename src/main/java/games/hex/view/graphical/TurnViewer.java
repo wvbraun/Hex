@@ -15,7 +15,6 @@ import games.hex.gameMechanics.PlayerColor;
 
 /**
  * Represents who is the current player and the winner.
- * @author Brandon Peavler
  *
  */
 @SuppressWarnings("serial")

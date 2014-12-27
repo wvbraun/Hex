@@ -1,9 +1,5 @@
 package games.hex.board;
 
-/**
- * @author Brandon Peavler   (peavlerb)
- */
-
 import java.util.Observer;
 import java.util.Set;
 
@@ -12,7 +8,6 @@ import games.hex.gameMechanics.PlayerColor;
 
 /**
  * Interface for the Hex Board.
- * @author Brandon Peavler
  *
  */
 public abstract interface Board {

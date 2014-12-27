@@ -4,8 +4,6 @@ import games.hex.gameMechanics.PlayerColor;
 
 /**
  * Abstract class for a Hex Player.
- * @author Brandon Peavler
- *
  */
 public abstract class AbstractPlayer implements Player {
 

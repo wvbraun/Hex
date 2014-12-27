@@ -9,8 +9,6 @@ import games.hex.gameMechanics.PlayerColor;
 
 /**
  * A very simple AI with a very basic heuristic.
- * @author Brandon Peavler
- *
  */
 public class BasicHexPlayer extends AbstractHexPlayer
 {	

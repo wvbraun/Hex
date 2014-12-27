@@ -11,7 +11,6 @@ import javax.swing.SpringLayout;
 
 /**
  * Allows the user to choose a size.
- * @author Brandon Peavler
  *
  */
 @SuppressWarnings("serial")

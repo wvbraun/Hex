@@ -13,7 +13,6 @@ import games.hex.gameMechanics.GameRunner;
 
 /**
  * Allows the user to select the game's rules.
- * @author Brandon Peavler
  *
  */
 @SuppressWarnings("serial")

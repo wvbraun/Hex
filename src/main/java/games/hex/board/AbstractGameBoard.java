@@ -1,16 +1,7 @@
 package games.hex.board;
 
-/**
- * @author Brandon Peavler   (peavlerb)
- */
-
 import java.util.Observable;
 
-/**
- * The Abstract class for the Board.
- * @author Brandon Peavler
- *
- */
 public abstract class AbstractGameBoard extends Observable implements Board {
 	protected int size;
 

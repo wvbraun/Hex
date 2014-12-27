@@ -4,8 +4,6 @@ import games.hex.gameMechanics.PlayerColor;
 
 /**
  * Abstract class for AI Players.
- * @author Brandon Peavler
- *
  */
 public abstract class AbstractHexPlayer extends AbstractPlayer 
 {

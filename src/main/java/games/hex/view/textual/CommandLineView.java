@@ -9,7 +9,6 @@ import games.hex.gameMechanics.PlayerColor;
 
 /**
  * Allows for a CommandLine game.
- * @author Brandon Peavler
  *
  */
 public class CommandLineView {

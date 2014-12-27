@@ -1,7 +1,4 @@
 package games.hex.gameMechanics;
-/** @author Brandon Peavler (peavlerb)
- */
-
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -23,19 +20,17 @@ import games.hex.view.textual.CommandLineView;
 
 /**
  * The Controller for Hex.
- * 
- * @author Brandon Peavler
  *
  */
 public class GameRunner extends Observable implements Runnable
 {
-	private Board 	board;
-	private Rules 	rules;
-	private Player 	playerOne;
-	private Player  playerTwo;
-	private boolean gameStopped;
-	
 	private static boolean isCLI;
+	
+	private 	   Board   board;
+	private        Rules   rules;
+	private        Player  playerOne;
+	private        Player  playerTwo;
+	private 	   boolean gameStopped;
 		
 	public GameRunner(int boardSize, String one, String two, String ruleSet, PlayerColor oneColor, PlayerColor twoColor)
 	{
@@ -60,6 +55,7 @@ public class GameRunner extends Observable implements Runnable
 	private Player createPlayer(String playerType, PlayerColor color, boolean isPlayerOne)
 	{
 		Player player;
+		
 		switch (playerType)
 		{
 			case "Random Player":
@@ -104,15 +100,12 @@ public class GameRunner extends Observable implements Runnable
 			case "Standard Rules":
 				rules = new StandardRules(board, one, two);
 				break;
-				
 			case "Overwrite Rules":
 				rules = new OverwriteRules(board, one, two);
 				break;
-				
 			case "Lose By Connecting Rules":
 				rules = new LoseByConnectingRules(board, one, two);
-				break;
-				
+				break;	
 			default:
 				rules = new StandardRules(board, one, two);
 				break;
@@ -319,6 +312,7 @@ public class GameRunner extends Observable implements Runnable
 	/**
 	 * Main method for GameRunner. Running the game with gui 
 	 * allows for a gui game, with cli allows for cli. 
+	 * 
 	 * @param args
 	 */
 	public static void main(String[] args)

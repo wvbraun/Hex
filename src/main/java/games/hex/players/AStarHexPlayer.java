@@ -14,8 +14,6 @@ import games.hex.gameMechanics.PlayerColor;
 
 /**
  * A* AI Player.
- * @author Brandon Peavler
- *
  */
 public class AStarHexPlayer extends AbstractHexPlayer
 {

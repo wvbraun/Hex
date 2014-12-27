@@ -6,7 +6,6 @@ import games.hex.players.Player;
 
 /**
  * Implements the Rules for an OverwriteMove
- * @author Brandon Peavler
  *
  */
 public class OverwriteRules extends StandardRules

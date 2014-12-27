@@ -1,8 +1,5 @@
 package games.hex.gameMechanics;
 
-/** @author Brandon Peavler (peavlerb)
- */
-
 import java.util.ArrayList;
 import java.util.Queue;
 

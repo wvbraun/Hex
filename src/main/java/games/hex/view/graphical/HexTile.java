@@ -15,7 +15,6 @@ import games.hex.gameMechanics.PlayerColor;
 
 /**
  * Represents the HexTiles with a JButton
- * @author Brandon Peavler
  *
  */
 @SuppressWarnings("serial")

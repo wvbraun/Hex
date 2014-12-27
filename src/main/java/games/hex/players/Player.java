@@ -8,8 +8,6 @@ import games.hex.gameMechanics.PlayerColor;
 
 /**
  * Interface for Hex Player.
- * @author Brandon Peavler
- *   
  */
 public interface Player {
 

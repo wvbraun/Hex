@@ -21,7 +21,6 @@ import games.hex.gameMechanics.PlayerColor;
 
 /**
  * Represents all GUI aspects of the game using a JFrame.
- * @author Brandon Peavler
  *
  */
 @SuppressWarnings("serial")

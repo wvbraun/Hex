@@ -5,8 +5,6 @@ import java.awt.Point;
 /**
  * Represents a player's move as a Point
  * 
- * @author Brandon Peavler
- *
  */
 public class Move {
 	

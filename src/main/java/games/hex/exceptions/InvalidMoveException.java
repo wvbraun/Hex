@@ -4,8 +4,6 @@ import games.hex.gameMechanics.Move;
 
 /**
  * InvalidMoveException
- * @author Brandon Peavler
- *
  */
 @SuppressWarnings("serial")
 public class InvalidMoveException extends Exception {

@@ -12,7 +12,6 @@ import javax.swing.JPanel;
 
 /**
  * Is displayed whenever the user does something they cannot do.
- * @author Brandon Peavler
  *
  */
 @SuppressWarnings("serial")

@@ -9,8 +9,6 @@ import games.hex.gameMechanics.PlayerColor;
 
 /**
  * A random move AI.
- * @author Brandon Peavler
- *
  */
 public class SimpleRandomPlayer extends AbstractPlayer
 {

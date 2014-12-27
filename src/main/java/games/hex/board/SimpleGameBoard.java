@@ -1,9 +1,5 @@
 package games.hex.board;
 
-/**
- * @author Brandon Peavler   (peavlerb)
- */
-
 import java.awt.Point;
 import java.util.HashSet;
 import java.util.Set;
@@ -13,7 +9,6 @@ import games.hex.gameMechanics.PlayerColor;
 
 /**
  * Represents the standard game board
- * @author Brandon Peavler
  *
  */
 public class SimpleGameBoard extends AbstractGameBoard

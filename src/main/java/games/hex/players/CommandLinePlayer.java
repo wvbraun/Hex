@@ -10,8 +10,6 @@ import games.hex.view.textual.CommandLineView;
 
 /**
  * A command line Player.
- * @author Brandon Peavler
- *
  */
 public class CommandLinePlayer extends AbstractPlayer 
 {

@@ -17,7 +17,6 @@ import games.hex.gameMechanics.PlayerColor;
 
 /**
  * Represents the board through use of a JPanel.
- * @author Brandon Peavler
  *
  */
 @SuppressWarnings("serial")

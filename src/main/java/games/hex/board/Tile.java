@@ -1,16 +1,11 @@
 package games.hex.board;
 
-/**
- * @author Brandon Peavler   (peavlerb)
- */
-
 import java.awt.Point;
 
 import games.hex.gameMechanics.PlayerColor;
 
 /**
  * Represents a Hex Tile, implemented similarly to a LinkedList.
- * @author Brandon Peavler
  *
  */
 public class Tile {

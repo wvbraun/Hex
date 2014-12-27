@@ -1,16 +1,10 @@
 package games.hex.gameMechanics;
 
-/**
- * @author Brandon Peavler   (peavlerb)
- */
-
 import games.hex.board.Board;
 import games.hex.players.Player;
 
 /**
  * Weird way for a player to lose?
- * @author Brandon Peavler
- *
  */
 public class LoseByConnectingRules extends StandardRules 
 {

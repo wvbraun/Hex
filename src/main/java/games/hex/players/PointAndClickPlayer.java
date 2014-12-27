@@ -12,7 +12,6 @@ import games.hex.gameMechanics.PlayerColor;
 
 /**
  * Allows for a GUI Player.
- * @author Brandon Peavler
  *
  */
 public class PointAndClickPlayer extends AbstractPlayer implements AWTEventListener

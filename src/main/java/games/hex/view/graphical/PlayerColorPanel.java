@@ -13,7 +13,6 @@ import games.hex.gameMechanics.PlayerColor;
 
 /**
  * Allows a user to choose the player's color.
- * @author Brandon Peavler
  *
  */
 @SuppressWarnings("serial")
