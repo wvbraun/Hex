@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<packaging>jar</packaging>
-	<version>1.0.3</version>
+	<version>1.0.4</version>
 	<build>
 		<plugins>
 			<plugin>
@@ -41,7 +41,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	<name>hex</name>
+	<name>Hex</name>
 	<artifactId>hex</artifactId>
-	<groupId>games.hex</groupId>
+	<groupId>code.games</groupId>
 </project>

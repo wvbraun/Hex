@@ -1,7 +1,10 @@
-games.hex
-games.hex.board
-games.hex.exceptions
-games.hex.gameMechanics
-games.hex.players
-games.hex.view.graphical
-games.hex.view.textual
+code.games.hex.board
+code.games.hex.execptions
+code.games.hex.gameMechanics
+code.games.hex.players
+code.games.hex.view.graphical
+code.games.hex.view.textual
+tests.games.hex
+tests.games.hex.board
+tests.games.hex.gameMechanics
+tests.games.hex.players
